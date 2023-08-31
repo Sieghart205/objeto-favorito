@@ -68,3 +68,9 @@ tbody tr:nth-child(even) {
 .container{
     margin:0px 150px 0px 150px;
 }
+
+@media (max-width: 1015){
+    .container{
+        margin:0px 25px 0px 25px;
+    }
+}
