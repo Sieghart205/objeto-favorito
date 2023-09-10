@@ -19,7 +19,7 @@ header{
 }
 
 .fotos{
-    margin: 25px;
+    margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,9 +27,12 @@ header{
 }
 
 .fotos img{
+    border: 5px #000 solid;
+    padding: 10px;
     border-radius: 25px;
     transition: all .5s ease;
     cursor: pointer;
+    width: 350px;
 }
 
 .fotos img:hover{
