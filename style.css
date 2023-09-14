@@ -23,6 +23,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap:25px;
 }
 
@@ -32,7 +33,7 @@ header{
     border-radius: 25px;
     transition: all .5s ease;
     cursor: pointer;
-    width: 350px;
+    height: 80vh;
 }
 
 .fotos img:hover{
